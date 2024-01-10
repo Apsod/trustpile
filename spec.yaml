@@ -1,0 +1,12 @@
+name: trustpile
+kind: wrapper
+depends_on:
+  litbank:
+    repo: apsod/litbank.git
+    subpath: process
+  anforanden:
+    repo: apsod/anforanden.git
+    subpath: ingest
+  hplt:
+    repo: apsod/hplt.git
+    subpath: ingest
